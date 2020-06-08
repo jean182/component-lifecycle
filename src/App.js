@@ -3,9 +3,9 @@ import AppRouter from "./router/AppRouter"
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <AppRouter />
-    </div>
+    </React.Fragment>
   )
 }
 

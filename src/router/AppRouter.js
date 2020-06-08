@@ -17,7 +17,7 @@ export default function AppRouter() {
         <Route path="/pokemon-list-class" exact>
           <PokemonListClassPage />
         </Route>
-        <Route path="/pokemon-list-class/:id" component={PokemonInfo} />
+        <Route path="/pokemon/:id" component={PokemonInfo} />
         <Route path="/pokemon-list-hooks">
           <PokemonListHooksPage />
         </Route>

@@ -8,7 +8,7 @@ export default function PokemonInfo({ location }) {
       <p>Numero de dex del pokemon: {id}</p>
       <p>
         Endpoint original:
-        <a href={url}>{" "}{url}</a>
+        <a href={url}> {url}</a>
       </p>
       <p>
         La info del dex esta en este endpoint:

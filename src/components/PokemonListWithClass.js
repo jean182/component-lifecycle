@@ -36,9 +36,9 @@ class PokemonListWithClass extends React.Component {
       return <div>Error: {error.message}</div>
     } else if (!isLoaded) {
       return (
-        <div class="text-center">
-          <div class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
+        <div className="text-center">
+          <div className="spinner-border" role="status">
+            <span className="sr-only">Loading...</span>
           </div>
         </div>
       )

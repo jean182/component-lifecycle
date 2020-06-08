@@ -1,1 +1,23 @@
-@import "~bootstrap"
+$theme-colors: (
+  "primary": #3B4CCA,
+  "danger": #ff0000,
+  "warning": #FFDE00
+);
+
+@import "~bootstrap";
+@import "fonts";
+
+// body {
+//   min-height: 75rem;
+//   padding-top: 4.5rem;
+// }
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.custom-navbar-brand, .custom-jumbotron-title {
+  font-family: "PokemonSolidNormal";
+  color: #FFDE00 !important;
+  text-shadow: -4px 0 #3760ab, 0 4px #3760ab, 2px 0 #3760ab, 0 -4px #3760ab
+}

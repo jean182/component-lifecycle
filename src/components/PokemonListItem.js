@@ -14,7 +14,7 @@ const PokemonListItem = ({ id, name, url }) => {
         <h5 className="card-title">{capitalize(name)}</h5>
         <Link
           to={{
-            pathname: `/pokemon-list-class/${id}`,
+            pathname: `/pokemon/${id}`,
             state: {
               id,
               name,
