@@ -7,7 +7,7 @@ export default function PokemonListWithHooks() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=151")
+    fetch("https://pokeapi.co/api/v2/pokemon?limit=156&offset=493")
       .then((res) => res.json())
       .then(
         (data) => {
